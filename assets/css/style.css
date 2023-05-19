@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: rgb(0, 119, 255); 
+    background-image: url(/assets/img/discord.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 960px;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 120px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+.desc h2 {
+  background-image: url(/assets/img/R.gif);
+  background-size: contain;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desc p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.desc p:hover {
+    text-decoration: underline;
+}
+
+.link {
+    padding-bottom: 50px;
+} 
+
+.link a {
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+}
+
+.link input {
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    background: rgb(255, 255, 255, 0.2);
+    border: 0;
+    border-radius: 7px;
+}
+
+.link a:hover input {
+    transition: 0.7s;
+    background: rgba(0, 47, 255, 0.3);
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 130px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: #00b7ff;
+}
+
+.footer:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
